@@ -43,6 +43,7 @@ __published:	// IDE-managed Components
 	TImage *downright;
 	TImage *upleft;
 	TImage *upright;
+	TButton *Button2;
 	void __fastcall ıÓ‰Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall ibug1Click(TObject *Sender);
@@ -73,6 +74,7 @@ __published:	// IDE-managed Components
 	void __fastcall uprightClick(TObject *Sender);
 	void __fastcall leftClick(TObject *Sender);
 	void __fastcall rightClick(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm4(TComponent* Owner);

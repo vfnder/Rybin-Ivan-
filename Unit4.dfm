@@ -41,7 +41,7 @@
     OnClick = iant1Click
   end
   object ibee: TImage
-    Left = 387
+    Left = 389
     Top = 552
     Width = 60
     Height = 90
@@ -523,8 +523,8 @@
     OnClick = irbug2Click
   end
   object irbug1: TImage
-    Left = 189
-    Top = 143
+    Left = 8
+    Top = 23
     Width = 60
     Height = 90
     Picture.Data = {
@@ -577,8 +577,8 @@
     OnClick = irhopper2Click
   end
   object irhopper1: TImage
-    Left = 298
-    Top = 143
+    Left = 75
+    Top = 23
     Width = 60
     Height = 90
     Picture.Data = {
@@ -754,5 +754,14 @@
     Caption = #1089#1076#1072#1090#1100#1089#1103
     TabOrder = 1
     OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 847
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = #1089#1073#1088#1086#1089
+    TabOrder = 2
+    OnClick = Button2Click
   end
 end
